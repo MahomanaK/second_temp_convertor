@@ -15,12 +15,12 @@ function celsiusToFahrenheit(celsius) {
   let conversionType = prompt("Choose the conversion type: (CelsiustoFahrenheit or FahrenheittoCelsius)");
 
 
-  if (conversionType === "Fahrenheit") {
+  if (conversionType === "CelsiustoFahrenheit") {
    alert(celsiusToFahrenheit(temperature))
 
-  } else if (conversionType === "Celsius") {
+  } else if (conversionType === "FahrenheittoCelsius") {
     alert(fahrenheitToCelsius(temperature))
 
   } else {
     alert("Invalid conversion type.");
-  };
+  }
